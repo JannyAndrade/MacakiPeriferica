@@ -9,7 +9,8 @@ const makaziRouter = require("./router/makaziRouter")
 
 app.use(express.json())
 app.use(cors())
-app.use(makaziRouter)
+app.use("/escritores",makaziRouter)
+
 db.connect()
 
 

@@ -1,7 +1,10 @@
 const mongoose = require("mongoose")
 
 const EscritoresSchema = new mongoose.Schema({
-    id : mongoose.Schima.types.ObjectId,
+    id : {
+    type: mongoose.Schema.Types.ObjectId,
+    default: mongoose.Types.ObjectId
+    },
     NomeEscritores : {
         type: String,
         required: true
@@ -11,5 +14,6 @@ const EscritoresSchema = new mongoose.Schema({
         required: true
     }
 })
+
 
 module.exports = mongoose.model("EscritoresSchema", EscritoresSchema)

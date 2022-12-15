@@ -1,4 +1,4 @@
-const escritores = require("../models/EscritoresSchima")
+const escritores = require("../models/EscritoresSchema")
 
 
 const obterEscritores = async(req , res)=>{

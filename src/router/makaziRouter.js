@@ -1,13 +1,10 @@
-const express = require("express")
-const router = express.Router()
+const router = require("express").Router()
 
-const Controller = require("../controllers/makaziControllers")
+const controller = require("../controllers/makaziControllers")
+const { checkAuth } = require("../middlewares/auth");
+
+router.post("/escritores",checkAuth, controller.obterEscritores)
 
 
-router.post("/escritores", Controller.obterEscritores)
-
-
-module.exports = {
-    router
-}
+module.exports = router
 
