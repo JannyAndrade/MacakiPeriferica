@@ -1,9 +1,18 @@
 const router = require("express").Router()
 
-const controller = require("../controllers/makaziControllers")
+const controller = require("../controllers/escritoresControllers")
 const { checkAuth } = require("../middlewares/auth");
 
-router.post("/escritores",checkAuth, controller.obterEscritores)
+router.get("/listar", controller.listarEscritores)
+router.post("/escritores",controller.criarEscritores)
+router.patch("/atualizar/:id", checkAuth,controller.atualizarEscritores)
+router.delete("/delete/:id", controller.deleteEscritores)
+
+
+
+
+
+
 
 
 module.exports = router
