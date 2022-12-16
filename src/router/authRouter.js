@@ -2,9 +2,9 @@ const express = require("express");
 const router = express.Router();
 
 const authControllers = require("../controllers/authControllers");
-const userControllers = require("../controllers/userControllers")
+const userControllers = require("../controllers/userControllers");
 
-const { checkAuth } = require("../middlewares/auth");
+const { checkAuth } = require("../middlewares/alth");
 
 //rotas de users
 router.get("/all", checkAuth, userControllers.getAll);
@@ -14,4 +14,3 @@ router.post("/login", authControllers.login);
 
 
  module.exports = router
- 

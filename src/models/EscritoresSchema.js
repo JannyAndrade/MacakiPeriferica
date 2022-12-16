@@ -5,11 +5,15 @@ const EscritoresSchema = new mongoose.Schema({
     type: mongoose.Schema.Types.ObjectId,
     default: mongoose.Types.ObjectId
     },
-    NomeEscritores : {
+    nomeEscritores : {
         type: String,
         required: true
     },
-    NomeLivro:{
+    nomeLivro:{
+        type: String,
+        required: true
+    },
+    email:{
         type: String,
         required: true
     }

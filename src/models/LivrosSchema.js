@@ -1,28 +1,28 @@
 const mongoose = require("mongoose")
 
 const livrosSchema = new mongoose.Schema({
-    id : mongoose.Schima.types.ObjectId,
-    LivroNome: {
+    id : {
+        type: mongoose.Schema.Types.ObjectId,
+        default: mongoose.Types.ObjectId
+        },
+    livroNome: {
         type: String,
         required:true
     },
-    LivroDescricao:{
+    livroDescricao:{
         type: String,
+        required:true
 
     },
-    LivroPreco:{
+    livroPreco:{
         type: Number,
         required:true
 
     },
-    LivroImaguem:{
+    livroImagem:{
         type: String,
-    },
-    LivroNome : {
-        type: mongoose.Schema.Types.ObjectId,
-        ref: "usuario",
-        required : true
+        required:true
     }
 })
 
-module.exports = mongoose.model("Livros" , livrosSchema)
+module.exports = mongoose.model("livrosSchema" , livrosSchema)

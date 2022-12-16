@@ -24,17 +24,17 @@ const login = (req, res) => {
             
             if(!validPassword){
                 return res.status(401).send({
-                message: "Amor, sua senha esta invalida",
+                message: "Senha invalida",
                 statusCode: 401
                 })
             }
 
         // jwt.sign(nome do usuário, SEGREDO)
             const token = jwt.sign({name: user.name}, SECRET);
-            console.log("O TOKEN EH ESSE AKI", token)
+            console.log("Seu TOKEN é esse", token)
             
             res.status(200).send({
-                message: "Amor, vc esta logadah",
+                message: " Vc está logadinha",
                 token
             })
         })
