@@ -86,6 +86,83 @@ Desenvolvida utilizando JavaScript e Node.js, a API conta com dois CRUDs complet
 ```
 
     
+    ## 👨💻 TECNOLOGIAS E PACOTES UTILIZADOS:
+
+
+**TECNOLOGIAS**
+
+- [Git/GitHub](https://github.com/)
+- [Heroku](https://dashboard.heroku.com/apps)
+- [JavaScript](https://www.javascript.com/)
+- [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
+- [Node.js](https://nodejs.org/en/)
+- [insomnia](https://docs.insomnia.rest/insomnia/get-started)
+- [VScode](https://code.visualstudio.com/)  
+
+### PACOTES
+
+- [Express](https://expressjs.com/pt-br/)
+- [Mongoose](https://mongoosejs.com/)
+- [Cors](https://www.npmjs.com/package/cors)
+- [Dotenv-safe](https://www.npmjs.com/package/dotenv)
+- [Nodemon](https://www.npmjs.com/package/nodemon)
+
+
+
+
+# 🔃 ROTAS  PROFISSIONAL
+    
+    
+    | Método HTTP  | Endpoint                     | Descrição                            |
+| ------------ | ----------------------------  | ------------------------------------ |
+| GET          | "/listar", `                  |   listarEscritores     |
+| POST         | `/escritores"`                |    criarEscritores     |
+| PUT          | "/atualizar/:id"              | atualizarEscritores    |
+| DELETE       | `/delete/:id`                 | deleteEscritores       |   
+    
+    
+    
+# 🔃 ROTAS LIVROS
+    
+    
+    | Método HTTP  | Endpoint                     | Descrição                            |
+| ------------ | ----------------------------  | ------------------------------------ |
+| GET          | "/buscar",                    |   listarLivros       |
+| POST         | "/cadastrar/livros"           |   cadastrarLivros    |
+| PUT          | "/atualizar/livros/:id"       |  atualizarLivros     |
+| DELETE       | "/deletar/livros/:id`         |  deleteLivros        |   
+    
+    
+ # 🔃 ROTAS USUARIO   
+    
+    
+  
+    | Método HTTP  | Endpoint           |    Autenticação      | Descrição                            |
+| ------------ | ---------------------------- --------------   | ------------------------------------ |
+| GET          | "//all",              | checkAuth    |                  |   getAll        |
+| POST         | "/create"             |  checkAuth   |                  |   createUser    |
+| POST         | "/login"              |  checkAuth   |                  |   login         |
+
+
+    
+    
+    
+    
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     
