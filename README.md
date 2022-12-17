@@ -157,8 +157,14 @@ Desenvolvida utilizando JavaScript e Node.js, a API conta com dois CRUDs complet
 | POST         | "/login"              |  checkAuth   |        |   login         |
 
 
-    
-    
+    ## 🏗️ IMPLEMENTAÇÕES FUTURAS:
+
+* ⬛ Desenvolver um front-end;
+* ⬛ Adaptar a API para um formato de APP;
+* ⬛ Implementar espaço para compartilhamento de experiências entre as usuários;
+* ⬛ Implementar espaço para apoiar um escritor;
+* ⬛ Implementar carrinho.
+* ⬛ Implementar conexão com resdes sociais.
     
     
    
