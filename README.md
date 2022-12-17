@@ -33,7 +33,16 @@ A periferia precisa de um abrigo onde sua voz e suas ideias serão ouvidas e vir
 
   
     
+    ###=📳 FUNCIONALIDADES:
     
+📚Listar todos os LIVROS;                                        
+✍🏾Listar todos os AUTORES da API;          
+💻Cadastro, atualização e exclusão de LIVROS;                                             
+💻Cadastro, atualização e exclusão de AUTORES;
+
+
+
+
     
     
     
