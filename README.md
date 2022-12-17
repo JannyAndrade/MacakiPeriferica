@@ -42,6 +42,48 @@ A periferia precisa de um abrigo onde sua voz e suas ideias serão ouvidas e vir
 
 
 
+## 📌 MÉTODOS:
+<p align="justify">
+Desenvolvida utilizando JavaScript e Node.js, a API conta com dois CRUDs completos que respeitam princípios de SOLID e Clean Code. Utilizando a conexão com bando de dados MongoDB e as rotas foram testadas no **insomnia**.
+
+## 📂 ARQUITETURA MVC
+```
+ 📁Makazi Periferica
+   |
+   |-  📁 assets
+   |-  📁 src
+   |    |
+        |- 📂config
+          |-📑  database.js
+   |    |- 📁 controllers
+   |         |- 📑 authControllers.js
+   |         |- 📑 escritoresControllers.js
+             |- 📑 livroControllers.js
+             |- 📑 userControllers.js
+   |    |-📂  middlewares
+             |- 📑 alth.js
+   |    |- 📁 models
+   |         |- 📑EscritoresSchema.js
+   |         |- 📑LivrosSchema.js
+             |- 📑UserSchema.js
+   |
+   |    |- 📁 routes
+   |         |- 📑authRoutes.js 
+   |         |- 📑makaziRoutes.js
+   |
+   |    |- 📑 app.js
+   |    |- 📑 swagger.json
+   |
+   |
+   |- 📑 .env
+   |- 📑 .env.example
+   |- 📑 .gitignore
+   |- 📑 package-lock.json
+   |- 📑 package.json
+   |- 📑 README.me
+   |- 📑 server.js
+     
+```
 
     
     
