@@ -23,3 +23,11 @@ Um autor geralmente investe em uma tiragem mínima de 100 exemplares, algo por v
 Periféricos não tem esse valor para curtir uma ideia . Então surgiu a MaKazi Periférica . Makazi significa ABRIGO em suaíli, língua africana . 
 <p align="justify">    
 A periferia precisa de um abrigo onde sua voz e suas ideias serão ouvidas e viraram inspiração .
+    
+    ## 🔎 SOBRE A API:
+    
+    <p align="justify"> 
+    O projeto Makazi periférica é voltado para cadastros de livros escritos por moradores da periferia e dos guetos. 
+    <p align="justify"> 
+    Visando servir como um abrigo para suas artes , além de atingir apreciadores da leitura e da arte como um todo . 
+
