@@ -1,4 +1,7 @@
-# MacakiPeriferica
+<h1 align="center">
+    <br>
+    <p align="center">MaKazi Periférica<p>
+</h1.>
 
 
 
