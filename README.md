@@ -110,38 +110,51 @@ Desenvolvida utilizando JavaScript e Node.js, a API conta com dois CRUDs complet
 
 
 
-# 🔃 ROTAS  PROFISSIONAL
+# 🔃 ROTAS  PROFISSIONAIS
     
     
-    | Método HTTP  | Endpoint                     | Descrição                            |
-| ------------ | ----------------------------  | ------------------------------------ |
-| GET          | "/listar", `                  |   listarEscritores     |
-| POST         | `/escritores"`                |    criarEscritores     |
-| PUT          | "/atualizar/:id"              | atualizarEscritores    |
-| DELETE       | `/delete/:id`                 | deleteEscritores       |   
+    | Método HTTP  | Endpoint                     | Descrição       |                               
+| ------------ | ----------------------------  | ---------------------|        
+    
+| GET          | "/listar", `                  |   listarEscritores     |  
+    
+| POST         | `/escritores"`                |    criarEscritores     |  
+    
+| PUT          | "/atualizar/:id"              | atualizarEscritores    |  
+    
+| DELETE       | `/delete/:id`                 | deleteEscritores       |                                                        
     
     
     
 # 🔃 ROTAS LIVROS
     
     
-    | Método HTTP  | Endpoint                     | Descrição                            |
-| ------------ | ----------------------------  | ------------------------------------ |
+    | Método HTTP  | Endpoint                     | Descrição            |
+    
+| ------------ | ----------------------------  | ---------------------|
+    
 | GET          | "/buscar",                    |   listarLivros       |
+    
 | POST         | "/cadastrar/livros"           |   cadastrarLivros    |
+    
 | PUT          | "/atualizar/livros/:id"       |  atualizarLivros     |
+    
 | DELETE       | "/deletar/livros/:id`         |  deleteLivros        |   
     
     
- # 🔃 ROTAS USUARIO   
+ # 🔃 ROTAS USUÁRIO   
     
     
   
-    | Método HTTP  | Endpoint           |    Autenticação      | Descrição                            |
-| ------------ | ---------------------------- --------------   | ------------------------------------ |
-| GET          | "//all",              | checkAuth    |                  |   getAll        |
-| POST         | "/create"             |  checkAuth   |                  |   createUser    |
-| POST         | "/login"              |  checkAuth   |                  |   login         |
+    | Método HTTP  | Endpoint           |    Autenticação      | Descrição            |
+    
+| ------------ | ---------------------------- --------------   | --------------- |
+    
+| GET          | "//all",              | checkAuth    |        |   getAll        |
+    
+| POST         | "/create"             |  checkAuth   |        |   createUser    |
+    
+| POST         | "/login"              |  checkAuth   |        |   login         |
 
 
     
