@@ -13,7 +13,7 @@
 
     
     
-  # 💁🏾‍♀️JUSTIFICATIVA:
+ # 💁🏾‍♀️JUSTIFICATIVA:
     
  <p align="justify"> 
  Eu tenho uma paixão , ela se chama ler e foi daí que meu projeto surgiu . O que eu leio não vem da periferia, sabe por que ? 
@@ -24,10 +24,7 @@ Periféricos não tem esse valor para curtir uma ideia . Então surgiu a MaKazi 
 <p align="justify">    
 A periferia precisa de um abrigo onde sua voz e suas ideias serão ouvidas e viraram inspiração .
     
-    ## 🔎 SOBRE A API:
-    
-    <p align="justify"> 
-    O projeto Makazi periférica é voltado para cadastros de livros escritos por moradores da periferia e dos guetos. 
-    <p align="justify"> 
+ ## 🔎 SOBRE A API:    
+    O projeto Makazi periférica é voltado para cadastros de livros escritos por moradores da periferia e dos guetos.
     Visando servir como um abrigo para suas artes , além de atingir apreciadores da leitura e da arte como um todo . 
 
