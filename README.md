@@ -167,8 +167,7 @@ Desenvolvida utilizando JavaScript e Node.js, a API conta com dois CRUDs complet
 * ⬛ Implementar conexão com resdes sociais.
     
     
-   
-    
+  
     
     
     
