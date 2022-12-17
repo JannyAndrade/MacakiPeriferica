@@ -28,3 +28,15 @@ A periferia precisa de um abrigo onde sua voz e suas ideias serão ouvidas e vir
     O projeto Makazi periférica é voltado para cadastros de livros escritos por moradores da periferia e dos guetos.
     Visando servir como um abrigo para suas artes , além de atingir apreciadores da leitura e da arte como um todo . 
 
+ - **Autores**: um espaço de cadastro dos seus trabalhos com seus contatos 
+ - **Usuário**: Disponibilidade de acesso e contato para adquirir as obras
+
+  
+    
+    
+    
+    
+    
+    
+    
+    
